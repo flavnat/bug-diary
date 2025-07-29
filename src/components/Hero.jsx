@@ -5,6 +5,8 @@ function Hero() {
   return (
     <>
       <div className="text-center space-y-3 flex justify-center items-center flex-col py-20 mt-10 md:px-0 px-5">
+        <div class="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#5388c5_100%)]"></div>
+
         <h4 className="font-generalsans font-light border border-zinc-200 shadow-xs px-3 text-sm py-0.5 rounded-3xl">
           For Developers, By Developers
         </h4>

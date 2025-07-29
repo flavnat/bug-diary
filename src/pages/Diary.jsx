@@ -64,7 +64,9 @@ function Diary() {
   }, [bugs, searchTerm, filterSeverity]);
 
   return (
+    <>
     <div className="py-10 md:px-16 px-5 font-generalsans space-y-6 max-w-7xl mx-auto">
+
       <Breadcrumb />
 
       <div className="space-y-1 mt-6">
@@ -165,6 +167,9 @@ function Diary() {
         </div>
       </div>
     </div>
+
+    
+    </>
   );
 }
 
